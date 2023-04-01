@@ -16,4 +16,4 @@ For help getting started with Flutter development, view the
 samples, guidance on mobile development, and a full API reference.
 
 https://github.com/Basicconstruction/chatgpt_dart_server_with_shelf的客户端
-的实现.
+的实现. 逐渐实现中，预计在2023/4/20日之前发布初始可用版本。包含windows,linux,macos,web,ios。

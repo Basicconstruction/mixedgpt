@@ -19,4 +19,8 @@ class TokenUtil{
   static Future<Map<String,dynamic>> getUserInfo() async{
     return {};
   }
+
+  static Future<String> getToken()async{
+    return '';
+  }
 }

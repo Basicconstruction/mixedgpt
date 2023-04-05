@@ -1,3 +1,4 @@
+import 'package:mixedgpt/model/user_model.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class TokenUtil{
@@ -10,7 +11,7 @@ class TokenUtil{
     }
     return true;
   }
-  static saveLoginInfo() async{
+  static saveLoginInfo(UserModel model) async{
 
   }
   static clearUserInfo() async{

@@ -15,7 +15,16 @@ class Call{
     }
     return _callMap[type]?.contains(callback);
   }
-  static Future<void> removeCallBack(String type,{dynamic data})async{
+  static Future<void> removeCallBack(String type,Function callBack)async{
+    if(_callMap[type]==null){
+      return;
+    }
+    _callMap[type]?.removeWhere((element)=>
+      element == callBack
+    );
+  }
+
+  static void dispatch(String type,{dynamic data}) async{
     if(_callMap[type]==null){
       throw Exception('回调事件 $type 没有监听，发送失败');
     }

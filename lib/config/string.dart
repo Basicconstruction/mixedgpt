@@ -1,4 +1,4 @@
-class MString{
+class MString {
   static const String homeTitle = '首页';
   static const String aiChat = '智能对话';
   static const String aiAnswer = '智能回答';
@@ -6,7 +6,7 @@ class MString{
   static const String supplier = "供应商";
   static const String market = "第三方市场";
   static const String personalCenter = '个人中心';
-  static const String promtList = 'promt列表';
+  static const String promptList = 'promt列表';
   static const String loginTitle = "登录";
   static const String userTitle = '用户名';
   static const String passwordTitle = '密码';

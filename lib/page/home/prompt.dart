@@ -55,7 +55,7 @@ class PromptState extends State<Prompt> {
                 style: const TextStyle(fontSize: 15, color: Colors.green),
               ),
               Text(
-                item.name ?? '',
+                item.name,
                 maxLines: 1,
                 style: const TextStyle(fontSize: 15, color: Colors.grey),
               ),

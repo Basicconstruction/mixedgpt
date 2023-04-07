@@ -82,9 +82,12 @@ class LoginPageState extends State<LoginPage> {
     return Container(
       margin: const EdgeInsets.only(left: 15, right: 15),
       child: Column(
+        mainAxisSize: MainAxisSize.max,
+        mainAxisAlignment: MainAxisAlignment.start,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           ItemTextField(
-            icon: Icon(Icons.support_agent),
+            icon: const Icon(Icons.support_agent),
             controller: _supplierController,
             focusNode: _supplierNode,
             title: MString.supplier,
